@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 10px 10px;
+    align-items: center;
+    background-color: #fff;
+    z-index: 999;
+}
+.logo{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: royalblue;
+}
+.navigateur a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 700;
+    color: rosybrown;
+}
+.navigateur a:hover{
+    color: #8f2d3d;
+}
+.title{
+    font-size: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 63px;
+    color: royalblue;
+    font-weight: 900;
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.247);
+    transition: 0.9s;
+    border: solid 2px none;
+    border-radius: 5px;
+}
+.photo img:hover{
+    transform: scale(1.1);
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.grou{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: darkorange;
+    font-weight: 900;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: royalblue;
+    color: white;
+    margin-top: 136px;
+}
+.icon-mediaa a{
+    color: white ;
+    padding: 0.1em;
+    font-size: 0.8em;
+}
+.icon-mediaa a:hover{
+    color: darkorange;
+}
+@media(max-width:1024px){
+    header{
+        padding: 10px 20px;
+    }
+    .navigateur a{
+        margin: 0.2px;
+    }
+    .logo{
+        font-size: 1em;
+    }
+    .icon-mediaa a {
+        padding: 0.1em;
+    }}
+    @media (max-width:641px){
+        body{
+            font-size: 12px;
+        }}

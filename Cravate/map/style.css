@@ -1,0 +1,19 @@
+body{
+    
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url("2.jpg");
+    background-size: cover;
+    background-position:center;
+}
+#map{
+background-color: #fff;
+width:50vh;
+height:40vw;
+margin-left: 25%;
+margin-top: 4.5%;
+}
+#map{
+position: relative;
+width:50vw;
+height:40vh;
+}
+
